@@ -1,0 +1,42 @@
+package LinkedList;
+
+public class ReverseKNodes {
+	
+	Node head;
+	
+	class Node{
+		
+		int data;
+		Node next;
+		
+		Node(int d){
+			
+			data = d;
+			next = null;
+		}
+	}
+	
+	Node reverse(Node next, Node k) {
+		
+		// take 3 pointers
+		Node current = head;
+		Node next = null;
+		Node prev = null;
+		
+		int count =0;
+		
+		while(count < k &&  current!= null) {
+			next = current.next;
+			current.next = prev;
+			prev = current;
+			current = next;
+			
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

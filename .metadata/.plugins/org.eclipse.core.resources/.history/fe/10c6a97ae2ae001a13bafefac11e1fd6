@@ -1,0 +1,24 @@
+package Strings;
+
+public class LonRepCosChar {
+	
+	static char longestConsecChr(String str) {
+		
+		int n = str.length();
+		int count = 0;
+		char res = str.charAt(0);
+		int curr_count =
+	
+		
+	
+		
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

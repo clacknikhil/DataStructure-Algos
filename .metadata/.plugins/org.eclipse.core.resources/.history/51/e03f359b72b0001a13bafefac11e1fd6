@@ -1,0 +1,22 @@
+package Strings;
+
+public class anagram {
+
+	public static void main(String[] args) {
+		
+		String str1= "triangle";
+		String str2 = "integral";
+		
+		char [] ch1 = str1.toCharArray();
+		char [] ch2 = str2.toCharArray();
+		
+		
+		for(char i: ch1) {
+			
+			
+			
+		}
+
+	}
+
+}

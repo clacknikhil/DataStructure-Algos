@@ -1,0 +1,21 @@
+package Strings;
+
+public class longestCommonPrefix {
+
+	public static void main(String[] args) {
+		
+		String[] str = {"flower", "flight", "flood"};
+		
+		for(int i=0; i< str.length; i++) {
+			
+			System.out.println(str[i]);
+			
+			char[] ch = str[i].toCharArray();
+			
+			System.out.print(ch);
+			
+		}
+
+	}
+
+}
