@@ -32,17 +32,9 @@ public class FindNumberComingOddTimes {
 			if(hmap.get(a)%2 != 0) {
 				
 				System.out.println("Odd number occurence : " + a);
-			}
-				
+			}		
 			
 		}
-		
-		
-		
-		
-	
-		
-		
 
 	}
 

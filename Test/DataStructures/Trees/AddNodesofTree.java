@@ -3,7 +3,7 @@ package Trees;
 public class AddNodesofTree {
 	
 	static class Node {
-	int value;
+	int data;
 	Node left;
 	Node right;
 	}
@@ -11,7 +11,7 @@ public class AddNodesofTree {
 	static Node newNode(int key) {
 		
 		Node node = new Node();
-		node.value = key;
+		node.data = key;
 		node.left = node.right = null;
 		return (node);
 		
@@ -22,7 +22,7 @@ public class AddNodesofTree {
 			
 		if(root ==null)
 			return 0;
-		return(root.value + addBt(root.left)+ addBt(root.right));
+		return(root.data + addBt(root.left)+ addBt(root.right));
 		
 	}
 	
